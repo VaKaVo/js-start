@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "RF Dewi Expanded" ;
+    src: url(RFDewi-Bold.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.promo{
+    width: 1541px;
+    height: 431px;
+    background-color: #1a1a1a;
+    margin: auto;
+    position: relative;
+}
+.back2{
+    background-image: url(img/b42b0e45c9d7b7753fca0a14cd5d50167357dc91.png);
+    background-size: cover;
+    transition: scaleX(-1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.back1{
+    background-image: url(img/bc7f269b07832eec670607c5ff04920b4f199ba8.jpg);
+    background-size: cover;
+    transform: scaleX(-1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
